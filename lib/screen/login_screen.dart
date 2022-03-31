@@ -18,7 +18,6 @@ class _LoginScreenState extends State<LoginScreen> {
       backgroundColor: Colors.black,
       body: SafeArea(
         child: ListView(
-          scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.all(30),
           children: [
             const SizedBox(
