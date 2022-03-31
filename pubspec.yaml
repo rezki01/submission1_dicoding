@@ -1,0 +1,49 @@
+name: submission1
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/Spotify_App_Logo.svg.png
+    - assets/google-logo.png
+    - assets/Logo iPhone.png
+    - assets/Logo Facebook Format PNG.png
+    - assets/Glass_Animals_-_Heat_Waves.png
+    - assets/stay(justin_bieber).jpeg
+    - assets/bambam.jpeg
+    - assets/enemy(with_jid).jpeg
+    - assets/cold_heart.jpeg
+    - assets/abcdefu.jpg
+    - assets/industry_baby.jpg
+    - assets/ghost(justin).jpeg
+    - assets/good4u.jpeg
+    - assets/iloveyouso.jpeg
+
+
+  fonts:
+     - family: Lobster
+       fonts:
+         - asset: fonts/Lobster-Regular.ttf
