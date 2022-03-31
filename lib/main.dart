@@ -21,6 +21,11 @@ class MyApp extends StatelessWidget {
         buttonTheme: const ButtonThemeData(
           buttonColor: Colors.green,
         ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            primary: Colors.green,
+          ),
+        ),
         inputDecorationTheme: InputDecorationTheme(
           labelStyle: const TextStyle(color: Colors.white),
           enabledBorder: OutlineInputBorder(
