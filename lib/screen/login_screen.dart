@@ -79,10 +79,13 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 30,
             ),
             Center(
-              child: RaisedButton(
-                padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 60),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(50),
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 20, horizontal: 60),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50),
+                  ),
                 ),
                 onPressed: () {
                   debugPrint(
@@ -94,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       context,
                       MaterialPageRoute(
                         builder: (context) {
-                          return DashboardScreen();
+                          return const DashboardScreen();
                         },
                       ),
                     );
@@ -139,9 +142,11 @@ class _LoginScreenState extends State<LoginScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                RaisedButton(
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    shape: const CircleBorder(),
+                  ),
                   onPressed: () {},
-                  shape: const CircleBorder(),
                   child: Container(
                     height: 50,
                     width: 50,
@@ -155,9 +160,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                 ),
-                RaisedButton(
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    shape: const CircleBorder(),
+                  ),
                   onPressed: () {},
-                  shape: const CircleBorder(),
                   child: Container(
                     height: 50,
                     width: 50,
@@ -170,9 +177,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                 ),
-                RaisedButton(
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    shape: const CircleBorder(),
+                  ),
                   onPressed: () {},
-                  shape: const CircleBorder(),
                   child: Container(
                     height: 50,
                     width: 50,
